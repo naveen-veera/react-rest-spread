@@ -32,7 +32,7 @@ const FilterEvenOdd = ( props ) => {
 
                 <h1>Number Filter</h1>
                 <div className={classes.ButtonContainer}>
-                    <input data-testid="numberOfInput" className={classes.Input} type="text" onChange={(e) => setArraySize(e.target.value)} placeholder='Enter the number of inputs' />
+                    <input data-testid="numberOfInput" className={classes.Input} type="text" onChange={(e) => setArraySize(e.target.value)} placeholder='Enter the inputs separated by space' />
                     <button data-testid="generateNumber" className={classes.Button} onClick={createArrayList}>Generate Random Numbers</button>
                 </div>
 
