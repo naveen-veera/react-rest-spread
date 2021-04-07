@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import FilterEvenOdd from './components/FilterEvenOdd/FilterEvenOdd';
+import ImageLoader from './components/ImageLoader/ImageLoader';
 
 function App() {
   return (
     <div className="App">
-      <FilterEvenOdd />
+      <ImageLoader />/
     </div>
   );
 }
